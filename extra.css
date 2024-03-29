@@ -1,0 +1,74 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.add-student-form {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+
+.add-student-form input {
+	flex: 1;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.add-student-form button {
+	flex: 1;
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#students-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#students-table th,
+#students-table td {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: left;
+}
+
+#students-table th {
+	background-color: #4CAF50;
+	color: #fff;
+}
+
+#students-table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.search-form {
+	display: flex;
+	margin-top: 30px;
+}
+
+.search-form input {
+	flex: 1;
+	margin-right: 10px;
